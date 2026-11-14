@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 3rem;
+}
+.lead {
+  font-size: 1.25rem;
+  max-width: 60ch;
+  border-left: 4px solid orange;
+  padding-left: 1em;
+}
+.track {
+  background-color: #47557a;
+}
+.bar {
+  height: 16px;
+  background-color: orange;
+  width: 40%;
+}
+.hero {
+  color: white;
+  background-color: #14213d;
+  border-top: 6px solid orange;
+  padding: 3rem 8vw;
+  min-height: 100dvh;
+}
