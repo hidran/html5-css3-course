@@ -8,3 +8,4 @@ Una cartella per lezione, con la pagina com'è alla fine del video: aprite `inde
 - [Variabili CSS](36-variabili-css/)
 - [Flexbox completo](51-flexbox-completo/)
 - [CSS Grid: righe, colonne e fr](52-grid-righe-colonne-e-fr/)
+- [position: sticky](56-position-sticky/)
