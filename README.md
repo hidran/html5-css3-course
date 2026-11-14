@@ -5,4 +5,5 @@ Una cartella per lezione, con la pagina com'è alla fine del video: aprite `inde
 
 - [Il box model e box-sizing](31-box-model-e-box-sizing/)
 - [Le unità di misura](32-unita-di-misura/)
+- [Variabili CSS](36-variabili-css/)
 - [Flexbox completo](51-flexbox-completo/)

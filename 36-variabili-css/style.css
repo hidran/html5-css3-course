@@ -1,0 +1,31 @@
+@property --color-accent {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: black;
+}
+:root {
+  --color-accent: royalblue;
+}
+body {
+  max-width: 720px;
+  margin: 24px auto;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #e2e8f0;
+}
+h1 {
+  padding: 16px 24px;
+  color: white;
+  background-color: var(--color-accent);
+}
+h2 {
+  color: var(--color-accent);
+}
+.card {
+  border-left: 8px solid var(--color-accent);
+  margin-top: 24px;
+  padding: 4px 24px;
+  background-color: white;
+}
+.featured {
+  --color-accent: crimson;
+}
