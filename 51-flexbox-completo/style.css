@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  max-width: 960px;
+  margin: 20px auto;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: #1e293b;
+  background-color: #e2e8f0;
+}
+h2 {
+  font-size: 20px;
+}
+header {
+  margin-bottom: 20px;
+}
+nav a + a {
+  margin-left: 20px;
+}
+article {
+  padding: 12px;
+  border: 1px solid #94a3b8;
+  border-radius: 8px;
+  background-color: white;
+}
+article a {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 3px 12px;
+  border-radius: 6px;
+  color: white;
+  background-color: #1d4ed8;
+  text-decoration: none;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+}
+.card p {
+  flex: 1;
+}
+.card a {
+  align-self: flex-start;
+}
