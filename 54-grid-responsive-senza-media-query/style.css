@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: #1e293b;
+  background-color: #e2e8f0;
+}
+header {
+  margin-bottom: 20px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: white;
+  background-color: #1e3a8a;
+}
+h2 {
+  font-size: 20px;
+}
+.card {
+  padding: 12px;
+  border: 1px solid #94a3b8;
+  border-top: 6px solid #1d4ed8;
+  border-radius: 8px;
+  background-color: white;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
