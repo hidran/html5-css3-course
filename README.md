@@ -6,6 +6,7 @@ Una cartella per lezione, con la pagina com'è alla fine del video: aprite `inde
 - [Il box model e box-sizing](31-box-model-e-box-sizing/)
 - [Le unità di misura](32-unita-di-misura/)
 - [Variabili CSS](36-variabili-css/)
+- [Ombre e filtri](41-ombre-e-filtri/)
 - [Flexbox completo](51-flexbox-completo/)
 - [CSS Grid: righe, colonne e fr](52-grid-righe-colonne-e-fr/)
 - [position: sticky](56-position-sticky/)

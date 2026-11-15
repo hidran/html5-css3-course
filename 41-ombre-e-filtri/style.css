@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  max-width: 960px;
+  margin: 20px auto;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #f1f5f9;
+}
+header {
+  padding: 32px;
+  border-radius: 12px;
+  background-image: url("images/hero.svg");
+  background-size: cover;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 24px;
+}
+img {
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+}
+h1 {
+  font-size: 48px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+.card {
+  padding: 16px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow:
+    0 1px 3px gray,
+    0 8px 24px silver;
+}
+.note {
+  margin-top: 76px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background-color: rgb(255 255 255 / 50%);
+  backdrop-filter: blur(8px);
+}
+.closed img {
+  filter: grayscale(100%);
+}
