@@ -9,4 +9,5 @@ Una cartella per lezione, con la pagina com'è alla fine del video: aprite `inde
 - [Ombre e filtri](41-ombre-e-filtri/)
 - [Flexbox completo](51-flexbox-completo/)
 - [CSS Grid: righe, colonne e fr](52-grid-righe-colonne-e-fr/)
+- [CSS Grid: aree con nome](53-grid-aree-con-nome/)
 - [position: sticky](56-position-sticky/)
