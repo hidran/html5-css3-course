@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #e2e8f0;
+}
+header,
+.banner,
+footer {
+  padding: 12px 20px;
+  color: white;
+  background-color: #1e3a8a;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  margin-left: 20px;
+}
+.banner,
+.card {
+  margin: 16px 0;
+}
+.card {
+  padding: 12px 20px;
+  border-left: 8px solid silver;
+  background-color: white;
+}
+.badge {
+  padding: 2px 8px;
+  background-color: gold;
+}
+:where(header, .banner, footer) a {
+  color: white;
+}
+footer a {
+  color: gold;
+}
+.card:has(.badge) {
+  border-left: 8px solid gold;
+}
+a:focus-visible {
+  outline: 3px solid gold;
+}
