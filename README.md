@@ -15,3 +15,4 @@ Una cartella per lezione, con la pagina com'è alla fine del video: aprite `inde
 - [CSS Grid: aree con nome](53-grid-aree-con-nome/)
 - [CSS Grid: griglie responsive senza media query](54-grid-responsive-senza-media-query/)
 - [position: sticky](56-position-sticky/)
+- [Transizioni CSS](61-transizioni-css/)
