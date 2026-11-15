@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diario di montagna</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <picture>
+    <source type="image/avif"
+      srcset="images/lago-1200.avif 1200w, images/lago-2400.avif 2400w"
+      sizes="100vw">
+    <img src="images/lago.jpg" alt="Un lago di montagna all'alba"
+      srcset="images/lago-1200.jpg 1200w, images/lago-2400.jpg 2400w"
+      sizes="100vw"
+      fetchpriority="high"
+      width="3600" height="1200">
+  </picture>
+  <main>
+    <h1>Il lago all'alba</h1>
+    <p>Siamo partiti con il buio, per arrivare al lago prima del sole. L'acqua era
+      ferma come uno specchio e le cime, una dietro l'altra, cambiavano colore:
+      prima viola, poi rosa, poi arancione.</p>
+    <p>Nessun rumore, a parte il vento tra i pini. Siamo rimasti seduti sulla riva
+      finché la luce non ha raggiunto il prato e l'aria ha cominciato a scaldarsi.
+      Poi, piano, anche il lago ha preso il colore del cielo.</p>
+    <img src="images/rifugio.jpg" alt="Il rifugio di legno in riva al lago"
+      loading="lazy"
+      width="960" height="540">
+    <p>Il rifugio è a pochi passi dall'acqua. Ci siamo fermati lì per la colazione,
+      con il lago davanti alla finestra.</p>
+  </main>
+</body>
+</html>
